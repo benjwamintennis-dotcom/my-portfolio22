@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-body {
-    background: lightblue;
-    color: black;
-    text-align: center;
-}
-=======
 /* ── Tokens ─────────────────────────────────────────── */
 :root {
   --bg:        #0f0f0f;
@@ -18,28 +11,10 @@ body {
   --radius:    6px;
   --max-w:     680px;
 }
->>>>>>> 9b35d04d2670f3d25cc32cb2d314bf2a87a8edeb
 
-<<<<<<< HEAD
-h1 {
-    color: blue;
-}
-=======
 /* ── Reset ───────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
->>>>>>> 9b35d04d2670f3d25cc32cb2d314bf2a87a8edeb
 
-<<<<<<< HEAD
-p {
-    color: purple;
-}
-
-button {
-    background: orange;
-    color: black;
-}
-
-=======
 body {
   background: var(--bg);
   color: var(--text);
@@ -233,4 +208,3 @@ h1 {
   white-space: pre-wrap;
   line-height: 1.8;
 }
-
