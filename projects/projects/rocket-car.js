@@ -8,8 +8,8 @@ var ahead = 1;
 var big = 1;
 var grn = 50;
 function setup() {
-  let canvas = createCanvas(500, 500);
-  canvas.parent('sketch-container');
+  let canvas = createCanvas(500, 500); // altered: canvas stored in a variable
+canvas.parent('sketch-container');   // altered: canvas attached to a specific HTML div
   rndX = random(100, 300);
   rndY = random(100, 300);
 }
