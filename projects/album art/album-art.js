@@ -1,15 +1,8 @@
-var mySound;
-function preload() {
-  
-   mySound = loadSound(" Spin intro to programming project.mp3")
- 
-}
-//I found this song on the website free music archive it was one of the websites to come up when i looked up creative commons music. Then searched for a song related to spinning and chose the only one to come and downloaded it into p5js then wrote the code.
 
 function setup() {
   createCanvas(400, 400);
 
-  mySound.play()
+
  
 }
 
