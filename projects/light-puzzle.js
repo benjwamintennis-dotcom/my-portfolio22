@@ -1,13 +1,6 @@
 let rstroke;
 let fattempts = 0;
 
-let switch1 = false;
-let switch2 = false;
-let switch3 = false;
-let switch4 = false;
-let switch5 = false;
-let switch6 = false;
-
 let light1 = false;
 let light2 = false;
 let light3 = false;
@@ -52,32 +45,26 @@ function draw() {
   let s6 = dist(mouseX, mouseY, 275, 175);
 
   if (s1 < radius && mouseIsPressed) {
-    switch1 = !switch1;
     toggleSwitch1();
   }
 
   if (s2 < radius && mouseIsPressed) {
-    switch2 = !switch2;
     toggleSwitch2();
   }
 
   if (s3 < radius && mouseIsPressed) {
-    switch3 = !switch3;
     toggleSwitch3();
   }
 
   if (s4 < radius && mouseIsPressed) {
-    switch4 = !switch4;
     toggleSwitch4();
   }
 
   if (s5 < radius && mouseIsPressed) {
-    switch5 = !switch5;
     toggleSwitch5();
   }
 
   if (s6 < radius && mouseIsPressed) {
-    switch6 = !switch6;
     toggleSwitch6();
   }
 
@@ -107,14 +94,7 @@ function draw() {
   text("light 5", 160, 360);
   text("light 6", 260, 360);
 
-  if (
-    light1 === true &&
-    light2 === true &&
-    light3 === true &&
-    light4 === true &&
-    light5 === true &&
-    light6 === true
-  ) {
+  if (light1 && light2 && light3 && light4 && light5 && light6) {
     background("green");
     fill("white");
     textSize(40);
