@@ -1,11 +1,11 @@
 body {
-  background: lightblue;
+  background: black;
   font-family: Arial;
 }
 
 .container {
   width: 80%;
-  background: white;
+  background: yellow;
 }
 
 h1 {
@@ -21,7 +21,7 @@ p {
 }
 
 .project-card {
-  background: lightgreen;
+  background: lightcoral;
   color: black;
   display: block;
   padding: 15px;
@@ -35,14 +35,14 @@ p {
 
 .project-desc {
   display: block;
-  color: darkgreen;
+  color: lightblue;
 }
 
 .project-number {
   font-weight: bold;
-  color: purple;
+  color: indigo;
 }
 
 .arrow {
-  color: red;
+  color: darkred;
 }
