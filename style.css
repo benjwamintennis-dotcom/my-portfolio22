@@ -11,10 +11,16 @@ h1 {
 
 h2 {
     color: green;
+    text-align: center;
 }
 
 p {
     font-size: 18px;
+    text-align: center;
+}
+
+a {
+    color: purple;
 }
 
 .project-list {
