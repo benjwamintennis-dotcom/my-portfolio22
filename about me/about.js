@@ -1,0 +1,1 @@
+<p> In my programming experience I have taken part in Rhazes's programming class in 8th grade. now this year i've spent my time learning about p5js python, playcode, index, script, style, and much more throughout my introduction to programming class with Jim Bologna. Take a look at some of my projects I have made this year</p>
